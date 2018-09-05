@@ -5,38 +5,37 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css">
-<%/*
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">*/ %>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <title>Page d'inscription</title>
 </head>
 <body>
 <div class="container-main">
 
-<div class="container-inscription">
-<form action="">
-		<table> 
-			<tr>
-				<td>votre email</td>
-				<td><input type="text" name="mail"></td>
-			</tr>
-			<tr>
-				<td>votre nom</td>
-				<td><input type="text" name="nom"></td>
-			</tr>
-			<tr>
-				<td>votre prénom</td>
-				<td><input type="text" name="prenom"></td>
-			</tr>
-			<tr>
-				<td>votre mot de passe</td>
-				<td><input type="password" name="password"></td>
-			</tr>
-			<tr>
-				<td><input type="submit" value="Submit"></td>
-			</tr>
-		</table>
-	</form></div>
-	
+<center><h1>Bienvenue sur notre page d'inscription.</h1></center>
+    <br> 
+	<br>
+	<br>
+
+
+	<div id="formInscription" class="rounded">
+	<h3>Veuillez entrer les informations suivantes pour procéder à votre inscription.</h3>
+	<br>
+	<br>
+	<br>
+	<form action="" style="width: 500px; margin: auto;">
+		<label for="mail">Email</label> 
+		<input type="text" name="mail"class="form-control"> 
+		<label for="prenom">Prénom</label> 
+		<input type="text" name="prenom" class="form-control"> 
+		<label for="nom">Nom</label> 
+		<input type="text" name="nom" class="form-control"> 
+		<input type="checkbox" name="isPro">
+		<label for="isPro">Professionnel ?</label>
+		<input type="submit" value="S'inscrire">
+		
+	</form>
+	</div>
 
 </div>
 </body>

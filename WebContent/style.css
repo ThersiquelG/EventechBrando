@@ -1,17 +1,14 @@
 @charset "UTF-8";
-body{
-	background-color: rgb(71,215,172);
-}
+html body {
+    background-color: rgb(71,215,172);
 
-.container-main{ 
-	
-	width:100%;
 }
-.container-inscription{    
-	background-color: white;
-    border-radius: 5px;
-    margin: 50px;
-    width: 30%;
-    position: relative;
-    left: 30%;
+#formInscription {
+	background-color: rgb(90,80,82);
+	width:510px;
+	margin:auto;
+	color: white;
+}
+.container-main{
+	width:100%;
 }
