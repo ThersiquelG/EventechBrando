@@ -5,18 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css">
+<%/*
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">*/ %>
 <title>Page d'inscription</title>
 </head>
 <body>
-<div id="container">
-<div id="mainLogo"></div>
+<div class="container-main">
 
-
-<h1>Inscription</h1>
-	
-	<div id="inscriptionBoxe">
-	<h3>Bienvenue !</h3>
-	<form action="">
+<div class="container-inscription">
+<form action="">
 		<table>
 			<tr>
 				<td>votre email</td>
@@ -38,17 +35,7 @@
 				<td><input type="submit" value="Submit"></td>
 			</tr>
 		</table>
-
-	</form>
-	</div>
-
-
-
-
-
-
-
-
+	</form></div>
 
 </div>
 </body>
