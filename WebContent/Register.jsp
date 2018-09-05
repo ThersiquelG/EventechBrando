@@ -14,7 +14,7 @@
 
 <div class="container-inscription">
 <form action="">
-		<table>
+		<table> 
 			<tr>
 				<td>votre email</td>
 				<td><input type="text" name="mail"></td>
