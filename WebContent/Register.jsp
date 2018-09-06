@@ -9,7 +9,11 @@
 <title>Page d'inscription</title>
 </head>
 <body>
+
+
 <jsp:include page="Header.html"></jsp:include>
+
+
 
 <div class="container.fluid">
             <div class="row">
@@ -53,7 +57,7 @@
                             <div class="row">
                                     <div class="col">
                                             <label for="prenom">Mot de passe</label> 
-                                            <input type="password" name="password" class="form-control"> 
+                                            <input type="password" name="mot_de_passe" class="form-control"> 
                                     </div>
                                 </div>
                                 <div class="row">
@@ -75,5 +79,7 @@
 
 
 <jsp:include page="Footer.html"></jsp:include>
+
+
 </body>
 </html>

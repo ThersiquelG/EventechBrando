@@ -2,6 +2,8 @@
 html body {
     background-color: rgb(71,215,172);
     font-family: 'Roboto', sans-serif;
+     width:100%;
+     margin:0;
 }
 .col.align-self-start{
     padding-right: 65%;
@@ -24,10 +26,13 @@ img {
 Header {
 	background-image: url("img/HeaderBackground.jpg");
 	height:150px;
+	width: 100%;
+
 }
 
 Footer {
 	background-image: url("img/FooterBackground.png");
 	background-size: 100%;
 	height:150px;
+	width: 100%;
 }
