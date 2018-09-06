@@ -3,11 +3,11 @@ html body {
     background-color: rgb(71,215,172);
     font-family: 'Roboto', sans-serif;
      width:100%;
-     margin:0;
+    
 }
 .col.align-self-start{
     padding-right: 65%;
-    margin-left: 75px;
+   
 }
 img {
     border-radius: 50%;
