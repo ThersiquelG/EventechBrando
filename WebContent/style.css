@@ -20,3 +20,14 @@ img {
 .col{
     margin-bottom: 25px;
 }
+
+Header {
+	background-image: url("img/HeaderBackground.jpg");
+	height:150px;
+}
+
+Footer {
+	background-image: url("img/FooterBackground.png");
+	background-size: 100%;
+	height:150px;
+}

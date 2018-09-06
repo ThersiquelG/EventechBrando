@@ -9,13 +9,18 @@
 <title>Page d'inscription</title>
 </head>
 <body>
+<jsp:include page="Header.html"></jsp:include>
+
 <div class="container.fluid">
             <div class="row">
                     <div class="col align-self-start">
                             <img src="img/logo.png">
                     </div>
                     <div class="col align-self-end">
-                            <button type="button" class="btn btn-outline-danger">Se connecter</button>
+                    <form action ="">
+                    <input  class="btn btn-outline-danger" type="submit" value="Se connecter">
+                    </form>
+                            
                     </div>
                   </div>
        </div>
@@ -69,6 +74,6 @@
        
 
 
-
+<jsp:include page="Footer.html"></jsp:include>
 </body>
 </html>
